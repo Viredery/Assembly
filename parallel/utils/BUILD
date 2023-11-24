@@ -15,3 +15,8 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_library(
+    name = "defines",
+    hdrs = ["defines.h"],
+)
